@@ -1,0 +1,67 @@
+/* Custom CSS for St. Stephen's Capital Website */
+:root {
+  --primary-color: #3B9B08;
+  --secondary-color: #FF0000;
+  --dark-color: #000000;
+  --light-color: #FFFFFF;
+  --background-color: #EBFECD;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.nav-link {
+  color: var(--light-color) !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+
+.hero-section {
+  background-color: var(--light-color);
+  padding: 4rem 0;
+}
+
+.company-title {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.card {
+  transition: transform 0.3s ease;
+  margin-bottom: 1.5rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  padding: 3rem 0;
+}
+
+.social-links a {
+  color: var(--light-color);
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--secondary-color);
+}
